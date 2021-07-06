@@ -1,0 +1,40 @@
+#clockcontainer{
+    border:2px solid black;
+    margin: auto;
+    height: 50vw;
+    width: 50vw;
+    background: url(analogclock.png) no-repeat;
+    background-size: 100% ;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+#hour{
+    height: 25%;
+    width: 2%;
+    top: 30%;
+    left: 49%;
+    opacity: 0.8;
+    display: none;
+}
+      
+#minute{
+        height: 34%;
+    width: 1.5%;
+    top: 21%;
+    left: 49.3%;
+    opacity: 0.8;
+    display: none;
+
+}
+#second{
+    height: 25%;
+    width: 2%;
+    top: 30%;
+    left: 49%;
+    opacity: 0.8;
+    
+
+}
